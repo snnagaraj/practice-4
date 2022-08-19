@@ -6,13 +6,10 @@
     margin-top: 100px;
     height: 500px;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
-    /* flex-flow: column; */
 }
 .form-section{
     box-shadow: 0 0 5px 0 rgb(141, 141, 190);
-    /* margin: 20px; */
     width: 400px;
     height: 500px;
 }
@@ -55,34 +52,62 @@
 
 
 /* login section */
+.container1{
+    width:500px;
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,#25aae1,#4481eb,#04befe,#3f86ed);
+}
 .login{
     width: 30%;
     height: 350px;
-    /* margin-left: 200px; */
-    background-color: blue;
+    position: relative; 
+}
+.facebook{
+    background-color: aliceblue;
+    margin-top: 50px;
+    width: 75%;
+    height: 400px;
+
+}
+.form-1{
+    margin-left: 50px;
 }
 .form-1 h1{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     font-family: sans-serif;
+    margin-right: 50px;
 }
 .form-1 label{
     display: block;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
-.facebook .span{
-    /* cursor: pointer; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    display: block;
+.form-1 input{
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: aliceblue;
+}
+.form-1 input:focus{
+    outline: 0;
+}
+.lable .suresh{
+    position:absolute;
+    color: blue;
 }
 .login-button button{
     border: none;
     background-color: rgb(13, 92, 211);
     color: aliceblue;
     border-radius: 10px;
-    width: 70%;
+    width: 80%;
     height: 25px;
     margin-top: 40px;
 }
@@ -90,26 +115,36 @@
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    padding-right: 50px;
 }
 .log-icon{
     display: flex;
-    /* text-align: center; */
+    justify-content: center;
+    margin-right: 50px;
+
 }
 .log-icon a{
     text-decoration: none;
-    /* list-style-type: none; */
-
 }
 .log-icon li{
     list-style-type: none;
+    display: flex;
+    align-items: center;
     text-align: center;
     justify-content: center;
-    margin-right: 10px;
-}
-.log-icon a i{
+    margin-right: 10px; 
     border-radius: 50%;
+    /* padding-left:10px; */
     background-color: blue;
+    width: 10%;
+    height: 30px;
+}
+.log-icon li i{
     color: aliceblue;
-    width: 200px;
-    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
 }
