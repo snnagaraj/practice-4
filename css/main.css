@@ -86,7 +86,8 @@
 .form-1 label{
     display: block;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 15px;
+    font-family: sans-serif;
 }
 .form-1 input{
     width: 80%;
@@ -147,4 +148,35 @@
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
+}
+
+
+
+/* calculator */
+
+.container2{
+    width: 500px;
+    margin: 40px auto;
+    margin-top: 200px;
+    box-sizing: border-box;
+    box-shadow: 10px red;
+}
+.simeon{
+    width: 60%;
+    height: 40px;
+}
+.oprators{
+    display: flex;
+    /* padding-right: 50px; */
+}
+.oprators div{
+    padding-right: 60px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.numbers{
+    display: flex;
+}
+.numbers div{
+    padd
 }
